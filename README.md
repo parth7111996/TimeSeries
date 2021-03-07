@@ -34,6 +34,8 @@ Independent Predictors data Outline Example:
 ![image](https://user-images.githubusercontent.com/61245297/110230566-e6615780-7f37-11eb-8761-5f1acfbac33e.png)  
 Here WEEKEND_FLAG indicates wether that day was a weekend or not. Same with rest flags  
 
+FORECAST_1000.py is the base file which should be executed to run the package.  
 
+A more detail version is coming soon.....
 
 

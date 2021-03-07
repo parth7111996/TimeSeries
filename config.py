@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-#PROGRAM NAME   VERSION         DEVELOPER                   CHANGES DONE
-#config.py      1.0         SHRIJAN  & HARDIK               config file
-
-############################################ CODED BY SHRIJAN ############################################
-"""
-
 import pandas as pd
 
 #Nomenclature for column names
@@ -27,7 +20,7 @@ DICT_JEW_PATH = { "E" : "C:\\Users\\e1745511\\Downloads\\FORECAST\\Sales Data.xl
                   "J" : "C:\\Users\\e1762748\\Desktop\\FORECAST - Copy\\DAILY TR IN TSQ FRO APR '15.xlsx" }
 
 #Connection string for Netizza
-CONSTR = "DRIVER={NetezzaSQL};SERVER=172.25.11.246; PORT=5480;DATABASE=CARTESIAN_CON; UID=E1745511;PWD=Titan_5511;"
+CONSTR = ""
 
 #Dictionary to store the product wise min date to be considered for subsetting data for preprocessing
 DICT_START_DATE= { "J" : pd.to_datetime("01/04/2015"),

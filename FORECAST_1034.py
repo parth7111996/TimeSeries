@@ -1,4 +1,3 @@
-############################################ CODED BY HARDIK ############################################
 
 from statsmodels.tsa.arima_model import ARIMA
 from statsmodels.tsa.stattools import acf, pacf

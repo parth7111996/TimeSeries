@@ -1,5 +1,7 @@
 # TimeSeries
 A complete Time Series Python Package which helps you in building Models ranging from ARIMA to Prophet 
+![image](https://user-images.githubusercontent.com/61245297/110231186-0e52ba00-7f3c-11eb-83c4-da8811743da8.png)
+
 
 
 A time series is a sequence of observations taken sequentially in time.

@@ -1,6 +1,4 @@
 
-############################################ CODED BY SHRIJAN ############################################
-
 #Importing the relevant modules
 from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.stattools import acf

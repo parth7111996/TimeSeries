@@ -1,6 +1,4 @@
-"""
-############################################ CODED BY SHRIJAN ############################################
-"""
+
 
 #Importing the relevant modules
 import pyodbc
@@ -29,9 +27,9 @@ class dbQueries:
                               "CAT" : "",
                               "CAP" : "" }
 
-    strSelectTestQuery = "SELECT count(*) FROM CARTESIAN_CON.ADMIN.FINAL_LIST;"
+    strSelectTestQuery = ""
 
-    strSelectTestParametricQuery = "SELECT DOCNO , REGION , DOCDT   FROM CARTESIAN_CON.ADMIN.HDFC_OFFER_TEST WHERE LOCATION = ? ORDER BY DOCNO;"
+    strSelectTestParametricQuery = ""
 
 #Function to return the connection string depending on the input passed.
 #Note that the function has optional parameters and works even if no argument is passed
@@ -106,7 +104,6 @@ def sanitizeDates(df):
 
 
 #This function will take multiple inputs from user and return a merged dataframe of sales data and flag data
-#category can be :- { E : Eyeware ; W : Watches ; J : Jewelery }
 #level can be :- { OVR : Overall ; REG : Regional ; STO : Store ; SKU : SKU ; CAT : Category ; CAP : Category + Price Band }
 def dataExtraction(category , level , salesFromPath = True , flagsFromPath = True):
     

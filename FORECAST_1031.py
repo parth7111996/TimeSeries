@@ -1,6 +1,4 @@
 
-############################################ CODED BY SHRIJAN ############################################
-
 from statsmodels.tsa.api import ExponentialSmoothing
 from sklearn.metrics import mean_squared_error
 from matplotlib import pyplot as plt

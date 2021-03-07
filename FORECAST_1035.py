@@ -1,4 +1,3 @@
-############################################ CODED BY HARDIK ############################################
 
 from pmdarima.arima import auto_arima
 from transform import difference, transform

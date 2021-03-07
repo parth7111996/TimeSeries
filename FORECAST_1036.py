@@ -1,6 +1,4 @@
 
-############################################ CODED BY HARDIK ############################################
-
 import pandas as pd
 from fbprophet import Prophet
 from sklearn.metrics import mean_squared_error
